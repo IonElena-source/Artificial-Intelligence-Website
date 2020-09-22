@@ -171,7 +171,7 @@ margin-left: 40px;
 }
 .btn-book:hover
 {
-    transform:scale(1.2);
+    transform:scale(1.);
 }
 
 .book-item
@@ -298,3 +298,64 @@ width: 15%;
     size: 100px;
     height: 30px;
 }
+.title-section-benefits
+{
+    margin-left: 45%;
+    margin-right: auto;
+    font-size: 25px;
+    
+}
+.title-section-risks
+{
+    margin-left: 42%;
+    margin-right: auto;
+    font-size: 25px;
+}
+.Benefits-list li{
+    list-style-type: none;
+    font-weight: bolder;
+}
+.risks:last-child
+{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.drop-down
+{
+ position: relative;
+ display: inline-block;
+
+}
+.title-benefit
+{
+    display: inline-block;
+    background:linear-gradient(65deg,#CCFFFF , #FFCCCC);
+    font-size: 20px;
+    width: 1330px;
+    padding: 10px;
+    border: 5px solid navy;
+    margin: 10px;
+    text-align: center;
+}
+.content-dropdown
+{
+    
+    font-size: 20px;
+    width: 1340px;
+    padding: 10px;
+    border: 5px solid navy;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+}
+
