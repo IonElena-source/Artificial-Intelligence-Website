@@ -265,6 +265,8 @@ width: 15%;
 }
 .quantity-shop
 {
+    position: relative;
+    left:-30px;
     width: 50px;
     height: 20px;
     margin-left: 120px;
@@ -291,12 +293,14 @@ width: 15%;
 }
 .final-button
 {
+    left:-20px;
     margin-top: 20px;
     margin-bottom: 30px;
     display: block;
     margin-left:50%;
-    size: 100px;
+    size: 140px;
     height: 30px;
+    width: 120px;
 }
 .title-section-benefits
 {
@@ -359,3 +363,15 @@ width: 15%;
   
 }
 
+.um{
+position: relative;
+top:20px;
+left:-70px;
+}
+.purchase-button
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    left:-10px;
+}

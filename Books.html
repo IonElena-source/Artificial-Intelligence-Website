@@ -4,7 +4,7 @@
         <title id="title">Artificial Intelligence / Books</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="styles.css">
-        <script src="script.js"></script>
+        <script src="calcul_suma.js"></script>
     </head>
     <body>
         <header id="main-header">
@@ -175,16 +175,21 @@
         </div>
         <div class="shop-item-details">
             <img src="Images/A world without work.jpg" width="100px" class="img-shop item-shop">
-            <span class="price-shop item-shop">20$</span>
-            <input type="number" value="2" class="quantity-shop item-shop"id="input-quantity" onclick="Sum()">
-            <button type="button" class="delete-button-shop item-shop" onclick="deleteQuantity">DELETE</button>
+            <span class="price-shop item-shop" id="price-item">20</span>
+            <span class="um">$</span>
+            <input type="number" value="1" class="quantity-shop item-shop"id="input-quantity" onclick="calcul()"
+            min="0"
+            >
+            <button type="button" class="delete-button-shop item-shop" onclick="deleteQuantity()">DELETE</button>
         </div>
         <div class="sum-details">
             <strong class="total">Total:</strong>
-            <span class="total-sum" >20</span>
+            <span class="total-sum" id="total-text">20$</span>
         </div>
         <div>
-            <button type="button" class="final-button" onclick="Sum()">PURCHASE</button>
+            <button type="button" class="final-button">
+               <a href="FormPurchase.html" class="purchase-button">Purchase</a>
+            </button>
         </div>
     </section>
 
