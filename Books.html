@@ -4,7 +4,7 @@
         <title id="title">Artificial Intelligence / Books</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="styles.css">
-        <script src="sum_calculation.js"></script>
+        <script src="sum_calculation.js" async></script>
     </head>
     <body>
         <header id="main-header">
@@ -30,8 +30,9 @@
             <img src="Images/A world without work.jpg"    class="book-img">
             <div class="book-details">
                 <span class="book-price">
-                    20$
+                    20
                 </span>
+                <span class="umPrim">$</span>
                 <button role="button" class="btn-book">Buy</button>
             </div>
             </div>
@@ -43,8 +44,9 @@
             <img src="Images/Applied Artificial Intelligence.jpg"  class="book-img">
             <div class="book-details">
                 <span class="book-price">
-                    20$
+                    20
                 </span>
+                <span class="umPrim">$</span>
                 <button role="button" class="btn-book">Buy</button>
             </div>
             </div>
@@ -56,8 +58,9 @@
             <img src="Images/life.jpeg"  class="book-img">
             <div class="book-details">
                 <span class="book-price">
-                    20$
+                    40
                 </span>
+                <span class="umPrim">$</span>
                 <button role="button" class="btn-book">Buy</button>
             </div>
             </div>
@@ -69,8 +72,9 @@
             <img src="Images/Artificial Intelligence Basics.jpg"  class="book-img">
             <div class="book-details">
                 <span class="book-price">
-                    20$
+                    20
                 </span>
+                <span class="umPrim">$</span>
                 <button role="button" class="btn-book">Buy</button>
             </div>
             </div>
@@ -81,8 +85,9 @@
             <img src="Images/Deep Medicine.jpg"  class="book-img">
             <div class="book-details">
                 <span class="book-price">
-                    20$
+                    10
                 </span>
+                <span class="umPrim">$</span>
                 <button role="button" class="btn-book">Buy</button>
             </div>
             </div>
@@ -95,8 +100,9 @@
             <img src="Images/Human Compatible.jpg"  class="book-img">
             <div class="book-details">
                 <span class="book-price">
-                    20$
+                    50
                 </span>
+                <span class="umPrim">$</span>
                 <button role="button" class="btn-book">Buy</button>
             </div>
             </div>
@@ -107,8 +113,9 @@
             <img src="Images/KawasakiUnimate.jpg"  class="book-img">
             <div class="book-details">
                 <span class="book-price">
-                    20$
+                    50
                 </span>
+                <span class="umPrim">$</span>
                 <button role="button" class="btn-book">Buy</button>
             </div>
             </div>
@@ -119,8 +126,9 @@
             <img  src="Images/Nick Bostrom Superintelligence.jpg"  class="book-img">
             <div class="book-details">
                 <span class="book-price">
-                    20$
+                    20
                 </span>
+                <span class="umPrim">$</span>
                 <button role="button" class="btn-book">Buy</button>
             </div>
             </div>
@@ -132,8 +140,9 @@
             <img src="Images/Our Final Invention.jpg" class="book-img">
             <div class="book-details">
                 <span class="book-price">
-                    20$
+                    30
                 </span>
+                <span class="umPrim">$</span>
                 <button role="button" class="btn-book">Buy</button>
             </div>
         </div>
@@ -145,8 +154,9 @@
             <img src="Images/The Fourth Age.jpg"  class="book-img">
             <div class="book-details">
                 <span  class="book-price">
-                    20$
+                    70
                 </span>
+                <span class="umPrim">$</span>
                 <button role="button" class="btn-book">Buy</button>
             </div>
             </div>
@@ -158,8 +168,9 @@
             <img src="Images/Unimate.jpg" class="book-img">
             <div class="book-details">
                 <span class="book-price">
-                    20$
+                    20
                 </span>
+                <span class="umPrim">$</span>
                 <button role="button" class="btn-book">Buy</button>
             </div>
             </div>
@@ -168,42 +179,25 @@
     <section class="content-section-home">
         <hr>
         <h2 class="content-section-title-shop">Shopping Cart</h2>
+        
         <div class="shop-headers">
             <strong class="item-column header shop-column">ITEM</strong>
             <strong class="price-column header shop-column">PRICE</strong>
             <strong class="quantity-column header shop-column">QUANTITY</strong>
         </div>
-        <div class="shop-item-details">
-            <img src="Images/A world without work.jpg" width="100px" class="img-shop item-shop">
-            <span class="price-shop item-shop" id="price-item">20</span>
-            <span class="um">$</span>
-            <input type="number" value="1" class="quantity-shop item-shop"id="input-quantity"
-            min="0"
-            >
-            <button type="button" class="delete-button-shop item-shop" onclick="deleteQuantity()">DELETE</button>
+        <div class="shop">
+        
         </div>
-
-
-        <div class="shop-item-details">
-            <img src="Images/Deep Medicine.jpg" width="100px" class="img-shop item-shop">
-            <span class="price-shop item-shop" id="price-item">30</span>
-            <span class="um">$</span>
-            <input type="number" value="1" class="quantity-shop item-shop"id="input-quantity" 
-            min="0"
-            >
-            <button type="button" class="delete-button-shop item-shop" onclick="deleteQuantity()">DELETE</button>
-        </div>
-
-
         <div class="sum-details">
             <strong class="total">Total:</strong>
-            <span class="total-sum" id="total-text">20$</span>
+            <span class="total-sum" id="total-text">0$</span>
         </div>
         <div>
-            <button type="button" class="final-button">
-               <a href="FormPurchase.html" class="purchase-button">Purchase</a>
+            <button type="button" class="final-button">PURCHASE
             </button>
         </div>
+
+
     </section>
 
 
